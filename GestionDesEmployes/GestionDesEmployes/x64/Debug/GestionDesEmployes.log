@@ -1,0 +1,40 @@
+﻿  Date_Embauche.cpp
+  Employee.cpp
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.h(4,7): error C2011: 'Date_Embauche': 'class' type redefinition
+  (compiling source file 'Date_Embauche.cpp')
+      C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Employee.h(5,7):
+      see declaration of 'Date_Embauche'
+  
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(3,16): error C2027: use of undefined type 'Date_Embauche'
+      C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Employee.h(5,7):
+      see declaration of 'Date_Embauche'
+  
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(3,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(5,2): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(5,21): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(5,40): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(6,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(8,8): error C2143: syntax error: missing ';' before '&'
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(8,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(8,10): error C2473: 'operator >>': looks like a function definition, but there is no parameter list.
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(8,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(8,10): error C2365: 'operator >>': redefinition; previous definition was 'function'
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(8,30): error C2065: 'i': undeclared identifier
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(8,48): error C2065: 'd': undeclared identifier
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(8,33): error C2275: 'Date_Embauche': expected an expression instead of a type
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(9,1): error C2059: syntax error: '{'
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(9,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(9,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(17,8): error C2143: syntax error: missing ';' before '&'
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(17,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(17,10): error C2473: 'operator <<': looks like a function definition, but there is no parameter list.
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(17,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(17,10): error C2365: 'operator <<': redefinition; previous definition was 'function'
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(17,30): error C2065: 'o': undeclared identifier
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(17,48): error C2065: 'd': undeclared identifier
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(17,33): error C2275: 'Date_Embauche': expected an expression instead of a type
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(18,1): error C2059: syntax error: '{'
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(18,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\badre\source\repos\GestionDesEmployes\GestionDesEmployes\Date_Embauche.cpp(18,1): error C2447: '{': missing function header (old-style formal list?)
+  GestionDesEmployes.cpp
+  Generating Code...

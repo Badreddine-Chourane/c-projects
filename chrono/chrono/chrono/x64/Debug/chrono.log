@@ -1,0 +1,5 @@
+﻿  chrono.cpp
+C:\Users\badre\source\repos\chrono\chrono\chrono.cpp(8,11): error C2374: 'chrono': redefinition; multiple initialization
+      C:\Users\badre\source\repos\chrono\chrono\chrono.cpp(7,11):
+      see declaration of 'chrono'
+  

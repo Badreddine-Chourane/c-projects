@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\badre\\source\\repos\\oprtateur\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD11C63-E548-4870-908A-841DE43FCA86}|oprtateur\\oprtateur.vcxproj|C:\\Users\\badre\\source\\repos\\oprtateur\\oprtateur\\vecteur3D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBD11C63-E548-4870-908A-841DE43FCA86}|oprtateur\\oprtateur.vcxproj|solutionrelative:oprtateur\\vecteur3D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD11C63-E548-4870-908A-841DE43FCA86}|oprtateur\\oprtateur.vcxproj|C:\\Users\\badre\\source\\repos\\oprtateur\\oprtateur\\oprtateur.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBD11C63-E548-4870-908A-841DE43FCA86}|oprtateur\\oprtateur.vcxproj|solutionrelative:oprtateur\\oprtateur.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD11C63-E548-4870-908A-841DE43FCA86}|oprtateur\\oprtateur.vcxproj|C:\\Users\\badre\\source\\repos\\oprtateur\\oprtateur\\vecteur3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBD11C63-E548-4870-908A-841DE43FCA86}|oprtateur\\oprtateur.vcxproj|solutionrelative:oprtateur\\vecteur3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vecteur3D.cpp",
+              "DocumentMoniker": "C:\\Users\\badre\\source\\repos\\oprtateur\\oprtateur\\vecteur3D.cpp",
+              "RelativeDocumentMoniker": "oprtateur\\vecteur3D.cpp",
+              "ToolTip": "C:\\Users\\badre\\source\\repos\\oprtateur\\oprtateur\\vecteur3D.cpp",
+              "RelativeToolTip": "oprtateur\\vecteur3D.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T08:28:55.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "vecteur3D.h",
+              "DocumentMoniker": "C:\\Users\\badre\\source\\repos\\oprtateur\\oprtateur\\vecteur3D.h",
+              "RelativeDocumentMoniker": "oprtateur\\vecteur3D.h",
+              "ToolTip": "C:\\Users\\badre\\source\\repos\\oprtateur\\oprtateur\\vecteur3D.h",
+              "RelativeToolTip": "oprtateur\\vecteur3D.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T08:25:33.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "oprtateur.cpp",
+              "DocumentMoniker": "C:\\Users\\badre\\source\\repos\\oprtateur\\oprtateur\\oprtateur.cpp",
+              "RelativeDocumentMoniker": "oprtateur\\oprtateur.cpp",
+              "ToolTip": "C:\\Users\\badre\\source\\repos\\oprtateur\\oprtateur\\oprtateur.cpp",
+              "RelativeToolTip": "oprtateur\\oprtateur.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T08:24:50.385Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

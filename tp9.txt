@@ -1,0 +1,121 @@
+---------------employee.cpp-----------------
+#include "Employee.h"
+
+int Employee::getCode() const
+{
+    return code;
+}
+
+char Employee::getNom() const
+{
+    return nom;
+}
+
+float Employee::getNb_heures() const
+{
+    return nb_heures;
+}
+
+float Employee::getTaux_remuneration() const
+{
+    return taux_remuneration;
+}
+
+Date_Embauche Employee::getDate() const
+{
+    return date;
+}
+
+float Employee::CalculerSalaire()
+{
+    return nb_heures*taux_remuneration;
+}
+
+istream& operator>>(istream& i, Employee& e)
+{
+    cout << "code" << endl;
+    i >> e.code;
+    cout << "nom";
+    i >> e.nom;
+    cout << "nb heures";
+    i >> e.nb_heures;
+    cout << "taux remuneration";
+    i >> e.taux_remuneration;
+    cout << "date embauche";
+    i >> e.date;
+    return i
+}
+
+ostream& operator<<(ostream& o, Employee& e)
+{
+    o << e.code << e.nom << e.nb_heures << e.taux_remuneration << e.date;
+}
+
+---------------------employee.h-----------------------------------
+#pragma once
+#include"Date_Embauche.h"
+
+#include<iostream>
+using namespace std;
+
+class Employee
+{
+private:
+	int code;
+	char nom;
+	float nb_heures , taux_remuneration;
+	Date_Embauche date;
+
+public:
+	int getCode()const;
+	char getNom()const;
+	float getNb_heures()const;
+	float getTaux_remuneration()const;
+	Date_Embauche getDate()const;
+	float CalculerSalaire();
+	friend istream& operator>>(istream&, Employee&);
+	friend ostream& operator<<(ostream&, Employee&);
+
+};
+
+----------------------Date_Embauche.cpp--------------------
+#include "Date_Embauche.h"
+
+Date_Embauche::Date_Embauche(int jour, int mois, int annees)
+{
+	this->jour = jour; this->mois = mois; this->annees = annees;
+}
+
+istream& operator>>(istream& i, Date_Embauche& d)
+{
+	i >> d.jour;
+	i >> d.mois;
+	i >> d.annees;
+	return i;
+	
+}
+
+ostream& operator<<(ostream& o, Date_Embauche& d)
+{
+	o << d.jour <<"/" << d.mois <<"/" << d.annees;
+}
+--------------------------date_embauche.h-----------------------
+#pragma once
+#include "Employee.h"
+//class Employee;
+class Date_Embauche
+{
+private:
+	int jour, mois, annees;
+
+public:
+	friend  class Employee;
+	Date_Embauche(int jour=0, int mois=0, int annees=0);
+	friend istream& operator>>(istream&, Date_Embauche&);
+	friend ostream& operator<<(ostream&, Date_Embauche&);
+	
+	
+
+};
+
+------------------------------pour le main madrnahch ---------------------------------

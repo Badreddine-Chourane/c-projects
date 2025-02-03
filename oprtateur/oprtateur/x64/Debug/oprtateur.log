@@ -1,0 +1,9 @@
+﻿  oprtateur.cpp
+C:\Users\badre\source\repos\oprtateur\oprtateur\oprtateur.cpp(6,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\badre\source\repos\oprtateur\oprtateur\oprtateur.cpp(6,24): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\badre\source\repos\oprtateur\oprtateur\oprtateur.cpp(6,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\badre\source\repos\oprtateur\oprtateur\oprtateur.cpp(6,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\badre\source\repos\oprtateur\oprtateur\oprtateur.cpp(6,38): warning C4305: 'argument': truncation from 'double' to 'float'
+  vecteur3D.cpp
+  Generating Code...
+  oprtateur.vcxproj -> C:\Users\badre\source\repos\oprtateur\x64\Debug\oprtateur.exe

@@ -1,0 +1,4 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\badre\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(59,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\badre\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(174,47): error C2677: binary '*': no global operator found which takes type 'Brique' (or there is no acceptable conversion)
+C:\Users\badre\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(175,24): error C2677: binary '%': no global operator found which takes type 'Brique' (or there is no acceptable conversion)

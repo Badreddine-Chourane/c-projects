@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\badre\\source\\repos\\heritage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F91CAEB-7EEF-4E73-B399-18E5B8DA766F}|heritage\\heritage.vcxproj|C:\\Users\\badre\\source\\repos\\heritage\\heritage\\heritage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3F91CAEB-7EEF-4E73-B399-18E5B8DA766F}|heritage\\heritage.vcxproj|solutionrelative:heritage\\heritage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "heritage.cpp",
+              "DocumentMoniker": "C:\\Users\\badre\\source\\repos\\heritage\\heritage\\heritage.cpp",
+              "RelativeDocumentMoniker": "heritage\\heritage.cpp",
+              "ToolTip": "C:\\Users\\badre\\source\\repos\\heritage\\heritage\\heritage.cpp*",
+              "RelativeToolTip": "heritage\\heritage.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-25T08:23:50.719Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

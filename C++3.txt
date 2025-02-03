@@ -1,0 +1,93 @@
+vecteur3D.h
+
+
+
+
+#pragma once
+using namespace std;
+class vecteur3D
+{
+private:
+	float x,y,z;
+
+public:
+	
+	vecteur3D(float x=0, float y=0, float z=0);
+	vecteur3D(const vecteur3D&);
+	void afficher();
+
+
+	vecteur3D somme(const vecteur3D&);
+	vecteur3D Produit_scalaire(const vecteur3D& ,float p);
+};
+
+
+
+
+
+vecteur3D.cpp
+
+
+
+
+#include "vecteur3D.h"
+#include<iostream>
+using namespace std;
+
+vecteur3D::vecteur3D(float x, float y, float z)
+{
+	this->x = x;
+	this->y = y;
+	this->z = z;
+
+}
+
+vecteur3D::vecteur3D(const vecteur3D& B)
+{
+	this->x = B.x;
+	this->y = B.y;
+	this->z = B.z;
+
+}
+
+void vecteur3D::afficher()
+{
+	cout<< x <<" " << y <<" "<< z << endl;
+}
+
+vecteur3D vecteur3D::somme(const vecteur3D& s)
+{
+	
+	/*return vecteur3D(x+s.x , y+s.y , z+s.z);*/
+	this->x += s.x;
+	this->y += s.y;
+	this->z += s.z;
+	return *this;
+}
+
+vecteur3D vecteur3D::Produit_scalaire(const vecteur3D& s ,float p)
+{
+	p = x * s.x + y * s.y + z * s.z;
+	return p;
+}
+
+
+
+
+p3.cpp
+
+
+
+#include <iostream>
+#include "vecteur3D.h"
+
+int main()
+{
+    vecteur3D v1(5.2f, 6.3f, 9.5f);
+    vecteur3D v2(6.6f, 4.5f, 3.2f);
+    vecteur3D v3(v2);
+    v3.afficher();
+    v1.somme(v2).afficher();
+    v2.Produit_scalaire(v1).afficher();
+}
+

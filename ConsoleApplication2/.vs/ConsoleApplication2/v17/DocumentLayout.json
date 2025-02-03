@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\badre\\source\\repos\\ConsoleApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9A4D86-4CED-43BA-A043-D6D0DB55AE9F}|ConsoleApplication2\\ConsoleApplication2.vcxproj|C:\\Users\\badre\\source\\repos\\ConsoleApplication2\\ConsoleApplication2\\ConsoleApplication2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD9A4D86-4CED-43BA-A043-D6D0DB55AE9F}|ConsoleApplication2\\ConsoleApplication2.vcxproj|solutionrelative:ConsoleApplication2\\ConsoleApplication2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\badre\\Downloads\\_6257cb4e4f85889c9857e2a947c9f95e_construction (4).cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_6257cb4e4f85889c9857e2a947c9f95e_construction (4).cc",
+              "DocumentMoniker": "C:\\Users\\badre\\Downloads\\_6257cb4e4f85889c9857e2a947c9f95e_construction (4).cc",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\_6257cb4e4f85889c9857e2a947c9f95e_construction (4).cc",
+              "ToolTip": "C:\\Users\\badre\\Downloads\\_6257cb4e4f85889c9857e2a947c9f95e_construction (4).cc",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\_6257cb4e4f85889c9857e2a947c9f95e_construction (4).cc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-22T18:56:47.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleApplication2.cpp",
+              "DocumentMoniker": "C:\\Users\\badre\\source\\repos\\ConsoleApplication2\\ConsoleApplication2\\ConsoleApplication2.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication2\\ConsoleApplication2.cpp",
+              "ToolTip": "C:\\Users\\badre\\source\\repos\\ConsoleApplication2\\ConsoleApplication2\\ConsoleApplication2.cpp",
+              "RelativeToolTip": "ConsoleApplication2\\ConsoleApplication2.cpp",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAYwLgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-22T18:51:03.441Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

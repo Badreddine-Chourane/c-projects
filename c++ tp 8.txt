@@ -1,0 +1,83 @@
+vecteur3D.h
+
+
+#pragma once
+#include <iostream>
+using namespace std;
+class vecteur3D
+{
+
+	float x, y, z;
+public:
+	vecteur3D(float c1, float c2, float c3);
+	void afficher()const;
+	vecteur3D operator+(const vecteur3D&);
+	float operator*(const vecteur3D&);
+	bool operator==(const vecteur3D&) const;
+	bool operator!=(const vecteur3D&) const;
+};
+
+---------------------------------------------------------------------------------
+
+vecteur3D.cpp
+
+
+#include "vecteur3D.h"
+
+vecteur3D::vecteur3D(float c1, float c2, float c3)
+{
+	x = c1;
+	y = c2;
+	z = c3;
+}
+
+void vecteur3D::afficher() const
+{
+	cout << x <<" " << y << " " << z;
+}
+
+vecteur3D vecteur3D::operator+(const vecteur3D& v)
+{
+	return vecteur3D(x=v.x,y=v.y,z=v.z);
+}
+
+float vecteur3D::operator*(const vecteur3D& v)
+{
+	return (x*v.x+y*v.y+z*v.z);
+}
+
+bool vecteur3D::operator==(const vecteur3D& v) const
+{
+	return (x==v.x && y==v.y && z==v.z);
+}
+
+bool vecteur3D::operator!=(const vecteur3D& v) const
+{
+	return !(*this==v);
+}
+
+
+
+-------------------------------------------------------------------------
+
+
+main
+
+
+#include "vecteur3D.h"
+#include <iostream>
+
+int main()
+{
+    vecteur3D  v1(1.2, 2.6, 3.4) ,v2(9.4,6.4,3.5);
+    (v1 + v2).afficher();
+    if (v1 == v2) {
+        cout << "true";
+    }
+    else {
+        cout << "false";
+    };
+    cout << (v1 * v2);
+
+   
+}

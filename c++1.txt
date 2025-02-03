@@ -1,0 +1,56 @@
+point.h
+
+#pragma once
+#include <iostream>
+class point
+{
+private :
+	float x, y;
+public:
+	point(float, float);
+	void deplace(float,float);
+	void affiche();
+};
+
+
+----------------------------------------------------
+
+point.cpp
+
+#include "point.h"
+#include <iostream>
+using namespace std;
+point::point(float a,float b)
+{
+	x = a; y = b;
+}
+void point::deplace(float a,float b)
+{
+	x += a;
+	y += b;
+}
+
+void point::affiche()
+{
+	cout << x <<"        " << y;
+}
+
+-----------------------------------------------------------
+
+p1.cpp
+
+
+#include <iostream>
+#include "point.h"
+
+int main()
+{
+    point A(5.1,6.3);
+
+    A.affiche();
+}
+
+
+
+
+

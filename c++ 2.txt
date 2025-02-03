@@ -1,0 +1,112 @@
+livre.h
+
+#pragma once
+#include <iostream>
+#include<string>
+#include<vector>
+using namespace std;
+class Livre
+{
+private:
+	string titre, auteur, annee_de_publication, numero_ISBN;
+
+public:
+	Livre(string, string, string, string);
+	void afficherDetails();
+	string getISBN();
+};
+class bibliotheque
+{
+private:
+	vector <Livre> livre;
+
+public:
+	void ajouterLivre(const Livre& l);
+	void supprimerLivreParISBN(string isbn);
+	void AfficherLivre();
+
+};
+
+
+
+livre.cpp
+
+	#include "Livre.h"
+	using namespace std;
+
+	Livre::Livre(string t, string au, string ann, string num)
+	{
+		titre = t;
+		auteur = au;
+		annee_de_publication = ann;
+		numero_ISBN = num;
+	}
+
+	void Livre::afficherDetails() {
+		cout << "Titre : " << titre << endl
+			<< "Auteur : " << auteur << endl
+			<< "Annee de publication : " << annee_de_publication << endl
+			<< "Numero ISBN : " << numero_ISBN << endl
+			<< "--------------------------" << endl;
+	}
+
+	string Livre::getISBN()
+	{
+		return numero_ISBN;
+	}
+
+	void bibliotheque::ajouterLivre(const Livre& l) {
+		livre.push_back(l);
+	}
+#include "Livre.h"
+
+int main() {
+    // Création de la bibliothèque
+    bibliotheque maBibliotheque;
+
+    // Création de quelques livres
+    Livre livre1("1984", "George Orwell", "1949", "123456789");
+    Livre livre2("Le Petit Prince", "Antoine de Saint-Exupéry", "1943", "987654321");
+    Livre livre3("Harry Potter à l'école des sorciers", "J.K. Rowling", "1997", "456123789");
+
+    // Ajout des livres à la bibliothèque
+    maBibliotheque.ajouterLivre(livre1);
+    maBibliotheque.ajouterLivre(livre2);
+    maBibliotheque.ajouterLivre(livre3);
+
+    // Affichage des livres
+    cout << "Liste des livres dans la bibliothèque :" << endl;
+    maBibliotheque.AfficherLivre();
+
+    // Suppression d'un livre par son ISBN
+    cout << "\nSuppression du livre avec ISBN 987654321..." << endl;
+    maBibliotheque.supprimerLivreParISBN("987654321");
+
+    // Affichage des livres après suppression
+    cout << "\nListe des livres après suppression :" << endl;
+    maBibliotheque.AfficherLivre();
+
+    return 0;
+}
+
+	void bibliotheque::supprimerLivreParISBN(string isbn)
+	{
+		for (int i = 0; i < livre.size(); i++) {
+			if (livre[i].getISBN() == isbn) {
+				livre.erase(livre.begin() + i);
+			}
+		}
+	}
+
+	void bibliotheque::AfficherLivre()
+	{
+		for (int i = 0; i < livre.size(); i++) {
+			livre[i].afficherDetails();
+		}
+
+	}
+
+
+bibliotheque.cpp
+
+

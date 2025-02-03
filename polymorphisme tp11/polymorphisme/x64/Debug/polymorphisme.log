@@ -1,0 +1,4 @@
+﻿  polymorphisme.cpp
+C:\Users\badre\source\repos\polymorphisme\polymorphisme\polymorphisme.cpp(10,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\badre\source\repos\polymorphisme\polymorphisme\polymorphisme.cpp(10,25): warning C4305: 'argument': truncation from 'double' to 'float'
+  polymorphisme.vcxproj -> C:\Users\badre\source\repos\polymorphisme\x64\Debug\polymorphisme.exe
